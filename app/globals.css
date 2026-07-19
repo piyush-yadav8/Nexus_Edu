@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Premium Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 92, 255, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 92, 255, 0.6);
+}
+
+/* Glassmorphism Presets with Elegant Dark Backgrounds */
+.glass-panel {
+  background: rgba(17, 17, 30, 0.7);
+  backdrop-filter: blur(16px) saturate(130%);
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
+  border: 1px solid rgba(124, 92, 255, 0.08);
+}
+
+.glass-panel-heavy {
+  background: rgba(10, 10, 22, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(124, 92, 255, 0.12);
+}
+
+.glass-input {
+  background: #050816;
+  border: 1px solid rgba(124, 92, 255, 0.12);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-input:focus {
+  border-color: rgba(0, 229, 255, 0.6);
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.2);
+  outline: none;
+}
+
+/* Glowing Elements aligned with Elegant Dark theme */
+.glow-primary, .glow-violet {
+  box-shadow: 0 0 25px rgba(124, 92, 255, 0.25);
+}
+
+.glow-secondary, .glow-cyan {
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.25);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 25px rgba(0, 200, 83, 0.15);
+}
+
+.glow-rose {
+  box-shadow: 0 0 25px rgba(255, 82, 82, 0.15);
+}
+
+/* Learning Tree Connectors */
+.vertical-line {
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.8) 0%, rgba(6, 182, 212, 0.2) 100%);
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s infinite ease-in-out;
+}
+
+

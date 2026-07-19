@@ -1,0 +1,6 @@
+{
+  "name": "Nexora Edu",
+  "description": "A premium gamified, AI-powered educational platform featuring custom learning roadmaps, secure exam simulation, smart AI study modules, and live competitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
